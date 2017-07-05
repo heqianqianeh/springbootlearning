@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hqq</groupId>
+    <artifactId>springbootlearning</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>springbootlearning1.0</module>
+        <module>springbootlearning2.0</module>
+        <module>springbootlearning3.0</module>
+        <module>springbootlearning4.0</module>
+        <module>springbootlearning5.0</module>
+        <module>springbootlearning6.0</module>
+        <module>springbootlearning7.0</module>
+        <module>springbootlearning8.0</module>
+        <module>springbootlearning9.0</module>
+        <module>springbootlearning10.0</module>
+        <module>springbootlearning11.0</module>
+        <module>springbootlearning12.0</module>
+        <module>springbootlearning13.0</module>
+        <module>springbootlearning14.0</module>
+        <module>springbootlearning15.0</module>
+        <module>springbootlearning16.0</module>
+        <module>springbootlearning17.0</module>
+        <module>springbootlearning18.0</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.3.2.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
